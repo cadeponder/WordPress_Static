@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Test	</title>
-	<atom:link href="https://cadeponder.github.io/WordPress/2022/04/21/test/feed/" rel="self" type="application/rss+xml" />
-	<link>https://cadeponder.github.io/WordPress/2022/04/21/test/</link>
+	<atom:link href="https://cadeponder.github.io/WordPress_Static/2022/04/21/test/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cadeponder.github.io/WordPress_Static/2022/04/21/test/</link>
 	<description>Just another WordPress site</description>
 	<lastBuildDate>Thu, 21 Apr 2022 08:15:33 +0000</lastBuildDate>
 	<sy:updatePeriod>
