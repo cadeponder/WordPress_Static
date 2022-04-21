@@ -31,6 +31,7 @@ img.emoji {
 <style id="wp-block-page-list-inline-css">.wp-block-navigation .wp-block-page-list{display:flex;flex-direction:var(--navigation-layout-direction,initial);justify-content:var(--navigation-layout-justify,initial);align-items:var(--navigation-layout-align,initial);flex-wrap:var(--navigation-layout-wrap,wrap);background-color:inherit}.wp-block-navigation .wp-block-navigation-item{background-color:inherit}</style>
 <link rel="stylesheet" id="wp-block-navigation-css" href="https://cadeponder.github.io/WordPress_Static/wp-includes/blocks/navigation/style.min.css?ver=5.9.3" media="all">
 <style id="wp-block-template-part-inline-css">.wp-block-template-part.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}</style>
+<style id="wp-block-heading-inline-css">h1,h2,h3,h4,h5,h6{overflow-wrap:break-word}h1.has-background,h2.has-background,h3.has-background,h4.has-background,h5.has-background,h6.has-background{padding:1.25em 2.375em}</style>
 <style id="wp-block-image-inline-css">.wp-block-image{margin:0 0 1em}.wp-block-image img{height:auto;max-width:100%;vertical-align:bottom}.wp-block-image:not(.is-style-rounded)>a,.wp-block-image:not(.is-style-rounded) img{border-radius:inherit}.wp-block-image.aligncenter{text-align:center}.wp-block-image.alignfull img,.wp-block-image.alignwide img{height:auto;width:100%}.wp-block-image .aligncenter,.wp-block-image .alignleft,.wp-block-image .alignright{display:table}.wp-block-image .aligncenter>figcaption,.wp-block-image .alignleft>figcaption,.wp-block-image .alignright>figcaption{display:table-caption;caption-side:bottom}.wp-block-image .alignleft{float:left;margin:.5em 1em .5em 0}.wp-block-image .alignright{float:right;margin:.5em 0 .5em 1em}.wp-block-image .aligncenter{margin-left:auto;margin-right:auto}.wp-block-image figcaption{margin-top:.5em;margin-bottom:1em}.wp-block-image.is-style-circle-mask img,.wp-block-image.is-style-rounded img{border-radius:9999px}@supports ((-webkit-mask-image:none) or (mask-image:none)) or (-webkit-mask-image:none){.wp-block-image.is-style-circle-mask img{-webkit-mask-image:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>');mask-image:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>');mask-mode:alpha;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-size:contain;mask-size:contain;-webkit-mask-position:center;mask-position:center;border-radius:0}}.wp-block-image figure{margin:0}
 .wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}</style>
 <style id="wp-block-spacer-inline-css">.wp-block-spacer{clear:both}</style>
@@ -78,14 +79,12 @@ img.emoji {
 <style>.wp-container-9 .alignleft { float: left; margin-right: 2em; }.wp-container-9 .alignright { float: right; margin-left: 2em; }.wp-container-9 > * { margin-top: 0; margin-bottom: 0; }.wp-container-9 > * + * { margin-top: var( --wp--style--block-gap );  margin-bottom: 0; }</style>
 <style>.wp-container-10 > * {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-10 > .alignwide { max-width: 1000px;}.wp-container-10 .alignfull { max-width: none; }.wp-container-10 .alignleft { float: left; margin-right: 2em; }.wp-container-10 .alignright { float: right; margin-left: 2em; }.wp-container-10 > * { margin-top: 0; margin-bottom: 0; }.wp-container-10 > * + * { margin-top: var( --wp--style--block-gap );  margin-bottom: 0; }</style>
 <style>.wp-container-11 .alignleft { float: left; margin-right: 2em; }.wp-container-11 .alignright { float: right; margin-left: 2em; }.wp-container-11 > * { margin-top: 0; margin-bottom: 0; }.wp-container-11 > * + * { margin-top: var( --wp--style--block-gap );  margin-bottom: 0; }</style>
-<style>.wp-container-12 > * {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-12 > .alignwide { max-width: 1000px;}.wp-container-12 .alignfull { max-width: none; }.wp-container-12 .alignleft { float: left; margin-right: 2em; }.wp-container-12 .alignright { float: right; margin-left: 2em; }.wp-container-12 > * { margin-top: 0; margin-bottom: 0; }.wp-container-12 > * + * { margin-top: var( --wp--style--block-gap );  margin-bottom: 0; }</style>
-<style>.wp-container-13 .alignleft { float: left; margin-right: 2em; }.wp-container-13 .alignright { float: right; margin-left: 2em; }.wp-container-13 > * { margin-top: 0; margin-bottom: 0; }.wp-container-13 > * + * { margin-top: var( --wp--style--block-gap );  margin-bottom: 0; }</style>
-<style>.wp-container-14 .alignleft { float: left; margin-right: 2em; }.wp-container-14 .alignright { float: right; margin-left: 2em; }.wp-container-14 > * { margin-top: 0; margin-bottom: 0; }.wp-container-14 > * + * { margin-top: var( --wp--style--block-gap );  margin-bottom: 0; }</style>
+<style>.wp-container-12 .alignleft { float: left; margin-right: 2em; }.wp-container-12 .alignright { float: right; margin-left: 2em; }.wp-container-12 > * { margin-top: 0; margin-bottom: 0; }.wp-container-12 > * + * { margin-top: var( --wp--style--block-gap );  margin-bottom: 0; }</style>
+<style>.wp-container-13 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;align-items: center;justify-content: space-between;}.wp-container-13 > * { margin: 0; }</style>
+<style>.wp-container-14 > * {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-14 > .alignwide { max-width: 1000px;}.wp-container-14 .alignfull { max-width: none; }.wp-container-14 .alignleft { float: left; margin-right: 2em; }.wp-container-14 .alignright { float: right; margin-left: 2em; }.wp-container-14 > * { margin-top: 0; margin-bottom: 0; }.wp-container-14 > * + * { margin-top: var( --wp--style--block-gap );  margin-bottom: 0; }</style>
 <style>.wp-container-15 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;align-items: center;justify-content: space-between;}.wp-container-15 > * { margin: 0; }</style>
 <style>.wp-container-16 > * {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-16 > .alignwide { max-width: 1000px;}.wp-container-16 .alignfull { max-width: none; }.wp-container-16 .alignleft { float: left; margin-right: 2em; }.wp-container-16 .alignright { float: right; margin-left: 2em; }.wp-container-16 > * { margin-top: 0; margin-bottom: 0; }.wp-container-16 > * + * { margin-top: var( --wp--style--block-gap );  margin-bottom: 0; }</style>
-<style>.wp-container-17 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;align-items: center;justify-content: space-between;}.wp-container-17 > * { margin: 0; }</style>
-<style>.wp-container-18 > * {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-18 > .alignwide { max-width: 1000px;}.wp-container-18 .alignfull { max-width: none; }.wp-container-18 .alignleft { float: left; margin-right: 2em; }.wp-container-18 .alignright { float: right; margin-left: 2em; }.wp-container-18 > * { margin-top: 0; margin-bottom: 0; }.wp-container-18 > * + * { margin-top: var( --wp--style--block-gap );  margin-bottom: 0; }</style>
-<style>.wp-container-19 > * {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-19 > .alignwide { max-width: 1000px;}.wp-container-19 .alignfull { max-width: none; }.wp-container-19 .alignleft { float: left; margin-right: 2em; }.wp-container-19 .alignright { float: right; margin-left: 2em; }.wp-container-19 > * { margin-top: 0; margin-bottom: 0; }.wp-container-19 > * + * { margin-top: var( --wp--style--block-gap );  margin-bottom: 0; }</style>
+<style>.wp-container-17 > * {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-17 > .alignwide { max-width: 1000px;}.wp-container-17 .alignfull { max-width: none; }.wp-container-17 .alignleft { float: left; margin-right: 2em; }.wp-container-17 .alignright { float: right; margin-left: 2em; }.wp-container-17 > * { margin-top: 0; margin-bottom: 0; }.wp-container-17 > * + * { margin-top: var( --wp--style--block-gap );  margin-bottom: 0; }</style>
 </head>
 
 <body class="home blog wp-embed-responsive">
@@ -118,15 +117,24 @@ img.emoji {
 </header>
 
 
-					<figure class="wp-block-image alignwide size-full"><img src="https://cadeponder.github.io/WordPress_Static/wp-content/themes/twentytwentytwo/assets/images/flight-path-on-transparent-d.png" alt="Illustration of a bird flying."></figure>
-					</div>
+<h2 class="has-text-align-center has-large-font-size">I hope you enjoy this content half</h2>
+
+
+
+<h2 class="has-text-align-center has-large-font-size"> as much as I enjoyed making it.</h2>
+
+
+
+<figure class="wp-block-image alignwide size-full"><img src="https://cadeponder.github.io/WordPress_Static/wp-content/themes/twentytwentytwo/assets/images/flight-path-on-transparent-d.png" alt="Illustration of a bird flying."></figure>
+</div>
+
+
 
 <div style="height:66px" aria-hidden="true" class="wp-block-spacer"></div>
-
 </header>
 
 
-<main class="wp-container-16 wp-block-query"><ul class="wp-container-14 alignwide wp-block-post-template">
+<main class="wp-container-14 wp-block-query"><ul class="wp-container-12 alignwide wp-block-post-template">
 <li class="wp-block-post post-13 post type-post status-publish format-standard hentry category-uncategorized">
 
 <div class="wp-container-9 wp-container-8 wp-block-group">
@@ -179,42 +187,16 @@ img.emoji {
 </div>
 
 </li>
-<li class="wp-block-post post-1 post type-post status-publish format-standard hentry category-uncategorized">
-
-<div class="wp-container-13 wp-container-12 wp-block-group">
-<h2 class="alignwide wp-block-post-title has-var-wp-custom-typography-font-size-huge-clamp-2-25-rem-4-vw-2-75-rem-font-size"><a href="https://cadeponder.github.io/WordPress_Static/2022/04/21/hello-world/" target="_self" rel="">Hello world!</a></h2>
-
-
-
-
-<div class="wp-block-columns alignwide">
-<div class="wp-block-column" style="flex-basis:650px">
-<div class="wp-block-post-excerpt"><p class="wp-block-post-excerpt__excerpt">Welcome to WordPress. This is your first post. Edit or delete it, then start writing! </p></div>
-
-<div style="font-style:italic; font-weight:400;" class="wp-block-post-date has-small-font-size"><time datetime="2022-04-21T06:19:05+00:00"><a href="https://cadeponder.github.io/WordPress_Static/2022/04/21/hello-world/">April 21, 2022</a></time></div>
-</div>
-
-
-
-<div class="wp-block-column"></div>
-</div>
-
-
-
-<div style="height:112px" aria-hidden="true" class="wp-block-spacer"></div>
-</div>
-
-</li>
 </ul>
 
 </main>
 
 
 <footer class="wp-block-template-part">
-<div class="wp-container-19 wp-block-group" style="padding-top:var(--wp--custom--spacing--large, 8rem)">
+<div class="wp-container-17 wp-block-group" style="padding-top:var(--wp--custom--spacing--large, 8rem)">
 
-					<div class="wp-container-18 wp-block-group alignfull">
-					<div class="wp-container-17 wp-block-group alignwide" style="padding-top:4rem;padding-bottom:4rem">
+					<div class="wp-container-16 wp-block-group alignfull">
+					<div class="wp-container-15 wp-block-group alignwide" style="padding-top:4rem;padding-bottom:4rem">
 <p class="wp-block-site-title"><a href="https://cadeponder.github.io/WordPress_Static" rel="home" aria-current="page">Gallery</a></p>
 
 					
